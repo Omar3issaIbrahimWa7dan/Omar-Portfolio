@@ -1,266 +1,372 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Omar Eissa Wahdan | Data Analyst</title>
-
-  <link rel="stylesheet" href="Style.css" />
-
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Wahdan | Data Analyst Portfolio</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="Style.css">
 </head>
+<body data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="100">
+  
+  <!-- Animated Background -->
+  <div id="particles-js"></div>
 
-<body>
-
-<header class="header">
-
-  <a href="#home" class="logo">
-    Omar <span>Wahdan</span>
-  </a>
-
-<i class="bx bx-menu" id="menu-icon"></i>
-
-  <nav class="navbar">
-    <a href="#home" class="active">Home</a>
-    <a href="#about">About</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#certifications">Certifications</a>
-    <a href="#contact">Contact</a>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="main-navbar">
+    <div class="container">
+      <a class="navbar-brand text-gradient fw-bold" href="#">Omar Wahdan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#certifications">Certifications</a></li>
+          <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-<button class="gradiant-button">Contact Me</button>
-
-</header>
-
-<!-- HOME -->
-
-<section class="home" id="home">
-
-  <div class="home-content">
-    <h1>Welcome to <span>Omar Eissa Wahdan</span> Space</h1>
-
-```
-<h3>I'm a <span>Data Analyst</span></h3>
-
-<!-- ✅ تم تعديل الوصف فقط -->
-<p>
-  Based in <span>Giza, Egypt</span>, I am a Junior Data Analyst passionate about transforming raw data into actionable insights.
-  I specialize in data analysis, visualization, and reporting using SQL, Excel, and Power BI.
-  I enjoy identifying trends, solving problems, and supporting data-driven decision-making.
-</p>
-
-<!-- ✅ تم تعديل بيانات التواصل -->
-<div class="social-icons">
-
-  <a href="https://www.linkedin.com/in/omar3issawa7dan" target="_blank">
-    <i class="bx bxl-linkedin-square"></i>
-  </a>
-
-  <a href="https://github.com/omare104" target="_blank">
-    <i class="bx bxl-github"></i>
-  </a>
-
-  <a href="mailto:omareissawahdan@gmail.com">
-    <i class="bx bxl-gmail"></i>
-  </a>
-
-  <a href="https://wa.me/201004874828" target="_blank">
-    <i class="bx bxl-whatsapp"></i>
-  </a>
-
-</div>
-
-<div class="btn-group">
-  <a href="https://github.com/omare104" class="btn" target="_blank">View My Work</a>
-  <!-- ✅ زر CV -->
-  <a href="Omar Eissa CV(1).pdf" class="btn" download>Download CV</a>
-</div>
-```
-
-  </div>
-
-  <div class="home-img">
-    <img src="profile.jpg" alt="Omar Photo">
-  </div>
-
-</section>
-
-<!-- ABOUT -->
-
-<section class="about" id="about">
-
-  <div class="about-content">
-
-```
-<h2>About <span>Me</span></h2>
-
-<p>
-  I’m <strong>Omar Eissa Wahdan</strong>, a Data Analyst focused on extracting insights from data
-  and turning them into business value.
-  <br><br>
-  I work on data cleaning, analysis, and visualization to uncover trends and support decision-making.
-  I have hands-on experience with SQL, Excel, and Power BI.
-  <br><br>
-  I enjoy solving problems using data and building dashboards that communicate insights clearly and effectively.
-</p>
-```
-
-  </div>
-
-  <div class="about-img">
-    <img src="profile.jpg" alt="">
-  </div>
-
-</section>
-
-<!-- SKILLS -->
-
-<section class="skills" id="skills">
-
-  <h2 class="heading">My <span>Skills</span></h2>
-
-  <div class="skills-container">
-
-```
-<div class="skill-box">
-  <h4>Data Analysis</h4>
-  <div class="tools-logos">
-    <img src="profile.jpg">
-    <img src="profile.jpg">
-    <img src="profile.jpg">
-  </div>
-</div>
-
-<div class="skill-box">
-  <h4>Data Visualization</h4>
-  <div class="tools-logos">
-    <img src="profile.jpg">
-  </div>
-</div>
-
-<div class="skill-box">
-  <h4>Tools</h4>
-  <div class="tools-logos">
-    <img src="profile.jpg">
-    <img src="profile.jpg">
-  </div>
-</div>
-```
-
-  </div>
-
-</section>
-
-<!-- PROJECTS -->
-
-<section class="projects" id="projects">
-
-  <h2 class="heading">My <span>Projects</span></h2>
-
-  <div class="projects-box">
-
-```
-<a href="Dashboard Omar .pbix" class="project-card">
-  <img src="profile.jpg" alt="">
-  <div class="project-overlay">
-    <h3>Sales Dashboard (Power BI)</h3>
-  </div>
-</a>
-
-<a href="Needs.xlsx" class="project-card">
-  <img src="profile.jpg" alt="">
-  <div class="project-overlay">
-    <h3>Customer Analysis (SQL + Excel)</h3>
-  </div>
-</a>
-```
-
-  </div>
-
-</section>
-
-<!-- CERTIFICATIONS -->
-
-<section class="certifications" id="certifications">
-
-  <h2 class="heading">My <span>Certifications</span></h2>
-
-  <div class="projects-box">
-
-```
-<a href="Network Infrastructure NTI & itida (120 Hours).pdf" class="project-card">
-  <img src="profile.jpg" alt="">
-  <div class="project-overlay">
-    <h3>Certification Name</h3>
-  </div>
-</a>
-```
-
-</section>
-
-<!-- CONTACT -->
-
-<section class="contact" id="contact">
-
-  <h2 class="heading">Contact <span>Me</span></h2>
-
-  <form action="https://formspree.io/f/xnjgjaqd" method="POST">
-
-```
-<div class="input-group">
-
-  <div class="input-box">
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email" required>
-  </div>
-
-  <div class="input-box">
-    <input type="text" name="phone" placeholder="Phone Number">
-    <input type="text" name="subject" placeholder="Subject">
-  </div>
-
-</div>
-
-<div class="input-group-2">
-  <textarea name="message" placeholder="Your Message" required></textarea>
-  <input type="submit" value="Send Message" class="btn">
-</div>
-```
-
-  </form>
-
-</section>
-
-<!-- FOOTER -->
-
-<footer class="footer">
-
-  <div class="social-icons">
-
-```
-<a href="https://www.linkedin.com/in/omar3issawa7dan" target="_blank">
-  <i class="bx bxl-linkedin-square"></i>
-</a>
-
-<a href="https://github.com/omare104" target="_blank">
-  <i class="bx bxl-github"></i>
-</a>
-
-<a href="mailto:omareissawahdan@gmail.com">
-  <i class="bx bxl-gmail"></i>
-</a>
-
-<a href="https://wa.me/201004874828" target="_blank">
-  <i class="bx bxl-whatsapp"></i>
-</a>
-```
-
-  </div>
-
-</footer>
-
+  <!-- Hero Section -->
+  <section id="home" class="min-vh-100 d-flex align-items-center pt-5 position-relative">
+    <div class="container text-center z-2">
+      <img src="profile.jpg" alt="Omar Wahdan" class="profile-img mb-4" data-aos="zoom-in">
+      <h1 class="display-3 fw-bold" data-aos="fade-up">Hi, I'm <span class="text-gradient">Omar</span></h1>
+      <h2 class="h3 mb-3" data-aos="fade-up" data-aos-delay="100">Data Analyst | SQL - Excel - Power BI</h2>
+      <p class="lead text-muted mb-4 mx-auto" style="max-width: 600px;" data-aos="fade-up" data-aos-delay="200">
+        Junior Data Analyst passionate about turning raw data into actionable insights with precision and creativity.
+      </p>
+      <div class="social-icons mb-4" data-aos="fade-up" data-aos-delay="300">
+        <a href="https://www.linkedin.com/in/omar3issawa7dan" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://github.com/Omar3issaIbrahimWa7dan" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+        <a href="mailto:omareissawahdan@gmail.com" title="Email"><i class='bx bxs-envelope'></i></a>
+        <a href="https://wa.me/201004874828" target="_blank" title="WhatsApp"><i class='bx bxl-whatsapp'></i></a>
+      </div>
+      <div class="d-flex justify-content-center gap-3" data-aos="fade-up" data-aos-delay="400">
+        <a href="#projects" class="btn btn-custom">View Projects</a>
+        <a href="Omar Eissa CV.pdf" download target="_blank" class="btn btn-outline-custom">Download CV</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <div class="section-title text-center mb-5" data-aos="fade-up">
+        <h2>About <span class="text-gradient">Me</span></h2>
+        <div class="line"></div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+          <div class="glass-card p-4 h-100">
+            <h3 class="mb-3 text-gradient">Professional Summary</h3>
+            <p>I am a Junior Data Analyst driven by the desire to extract meaningful stories from complex datasets. My expertise lies in cleaning data, building intuitive dashboards, and running robust queries to support data-driven decision-making.</p>
+            <p>Currently studying Computer Science while gaining real-world communication experience in customer service.</p>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-left">
+          <div class="glass-card p-4 h-100">
+            <h3 class="mb-4 text-gradient">Personal Details</h3>
+            <ul class="list-unstyled detail-list">
+              <li><i class='bx bxs-user-badge text-primary-custom'></i> <strong>Name:</strong> Omar Eissa Ibrahim Wahdan</li>
+              <li><i class='bx bxs-graduation text-primary-custom'></i> <strong>Education:</strong> 2nd Yr CS Student - El Shorouk Academy</li>
+              <li><i class='bx bxs-map text-primary-custom'></i> <strong>Location:</strong> Giza, 6 October, Egypt</li>
+              <li><i class='bx bxs-phone text-primary-custom'></i> <strong>Phone:</strong> 01120280237 / 01004874828</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5">
+    <div class="container">
+      <div class="section-title text-center mb-5" data-aos="fade-up">
+        <h2>My <span class="text-gradient">Skills</span></h2>
+        <div class="line"></div>
+      </div>
+      <div class="row g-4">
+        <!-- Tech Skills -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="glass-card p-4 text-center h-100 skill-card">
+            <i class='bx bx-data skill-icon mb-3'></i>
+            <h4>SQL</h4>
+            <p class="text-muted small">Complex Queries, Joins, Data Manipulation</p>
+            <div class="progress custom-progress mt-3">
+              <div class="progress-bar progress-bar-custom" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="glass-card p-4 text-center h-100 skill-card">
+            <i class='bx bx-table skill-icon mb-3'></i>
+            <h4>Excel</h4>
+            <p class="text-muted small">Data Cleaning, Pivot Tables, Formulas</p>
+            <div class="progress custom-progress mt-3">
+              <div class="progress-bar progress-bar-custom" style="width: 90%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="glass-card p-4 text-center h-100 skill-card">
+            <i class='bx bx-bar-chart-alt-2 skill-icon mb-3'></i>
+            <h4>Power BI</h4>
+            <p class="text-muted small">Dashboards, Data Visualization, DAX</p>
+            <div class="progress custom-progress mt-3">
+              <div class="progress-bar progress-bar-custom" style="width: 80%"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Soft Skills -->
+        <div class="col-12 mt-5" data-aos="fade-up">
+          <div class="glass-card p-4">
+            <h4 class="text-center mb-4">Soft Skills</h4>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+              <span class="badge bg-custom-dark p-2 px-3 border border-custom">Problem Solving</span>
+              <span class="badge bg-custom-dark p-2 px-3 border border-custom">Customer Communication</span>
+              <span class="badge bg-custom-dark p-2 px-3 border border-custom">Active Listening</span>
+              <span class="badge bg-custom-dark p-2 px-3 border border-custom">Critical Thinking</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <div class="section-title text-center mb-5" data-aos="fade-up">
+        <h2>Featured <span class="text-gradient">Projects</span></h2>
+        <div class="line"></div>
+      </div>
+      <div class="row g-4">
+        
+        <!-- Project 1 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-card glass-card">
+            <div class="project-img-wrapper">
+              <img src="netflix-report.png" alt="Netflix Dashboard" class="img-fluid project-img">
+              <div class="project-overlay">
+                <a href="Omar Netflix Assigment.pbix" download class="btn btn-custom btn-sm">View PBIX</a>
+              </div>
+            </div>
+            <div class="p-4">
+              <h4 class="text-gradient">Netflix Analysis Dashboard</h4>
+              <p class="text-muted small">Power BI</p>
+              <p class="small">Dark-themed interactive dashboard mapping Netflix content IMDb ratings, viewers, and durations globally.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-card glass-card">
+            <div class="project-img-wrapper">
+              <img src="need-project.jpeg" alt="Needs Dashboard" class="img-fluid project-img">
+              <div class="project-overlay">
+                <a href="Need Project.pbix" download class="btn btn-custom btn-sm">View PBIX</a>
+              </div>
+            </div>
+            <div class="p-4">
+              <h4 class="text-gradient">Needs/Families Dashboard</h4>
+              <p class="text-muted small">Power BI</p>
+              <p class="small">Regional analysis covering families data, income levels, and housing distribution across Iraq, Libya, Syria, and Yemen.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="project-card glass-card">
+            <div class="project-img-wrapper">
+              <img src="health-dashboard.jpeg" alt="Health Dashboard" class="img-fluid project-img">
+              <div class="project-overlay">
+                <a href="Dashboard Omar .pbix" download class="btn btn-custom btn-sm">View PBIX</a>
+              </div>
+            </div>
+            <div class="p-4">
+              <h4 class="text-gradient">Health Analytics Dashboard</h4>
+              <p class="text-muted small">Power BI</p>
+              <p class="small">Global health tracking metrics including life expectancy, physicians count, infant mortality, and critical diseases.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <div class="project-card glass-card">
+            <div class="project-img-wrapper">
+              <img src="hr-report.jpeg" alt="HR Dashboard" class="img-fluid project-img">
+              <div class="project-overlay">
+                <span class="btn btn-custom btn-sm disabled" style="opacity:0.5; cursor:not-allowed;">View PBIX</span>
+              </div>
+            </div>
+            <div class="p-4">
+              <h4 class="text-gradient">HR Report Dashboard</h4>
+              <p class="text-muted small">Power BI</p>
+              <p class="small">Deep dive into workforce demographics, highlighting department splits, education levels, and gender distribution.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <div class="project-card glass-card h-100">
+            <div class="project-img-wrapper d-flex align-items-center justify-content-center" style="height: 200px; background: rgba(50, 249, 6, 0.1);">
+              <i class='bx bx-file-blank' style="font-size: 5rem; color: var(--primary);"></i>
+              <div class="project-overlay">
+                <a href="Needs.xlsx" download class="btn btn-custom btn-sm">Download Excel</a>
+              </div>
+            </div>
+            <div class="p-4">
+              <h4 class="text-gradient">Customer Data Analysis</h4>
+              <p class="text-muted small">Excel</p>
+              <p class="small">Comprehensive dataset cleaning, processing, and advanced pivot table manipulation to derive actionable business insights.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-5 bg-black-alpha">
+    <div class="container">
+      <div class="section-title text-center mb-5" data-aos="fade-up">
+        <h2>My <span class="text-gradient">Certifications</span></h2>
+        <div class="line"></div>
+      </div>
+      <div class="row g-4 justify-content-center">
+        <!-- Cert 1 -->
+        <div class="col-md-6" data-aos="fade-right">
+          <div class="glass-card p-0 overflow-hidden cert-card h-100 d-flex flex-column">
+            <img src="network-certificate.png" alt="Network Training Certificate" class="img-fluid border-bottom border-custom-dark">
+            <div class="p-4 flex-grow-1">
+              <h5 class="text-gradient">Network Infrastructure Training</h5>
+              <p class="text-muted small mb-2">NTI & ITIDA | Aug-Sep 2025</p>
+              <p class="small">Completed 120 hours of intensive training (90h Technical + 30h Soft Skills). <strong>Score: 92.5%</strong></p>
+              <a href="Network Infrastructure NTI & itidia (120 Hours).pdf" target="_blank" class="btn btn-outline-custom mt-2 btn-sm">View Certificate PDF</a>
+            </div>
+          </div>
+        </div>
+        <!-- Cert 2 -->
+        <div class="col-md-6" data-aos="fade-left">
+          <div class="glass-card p-0 overflow-hidden cert-card h-100 d-flex flex-column">
+            <img src="ic3-certificate.jpeg" alt="IC3 GS5 Spark Certificate" class="img-fluid border-bottom border-custom-dark">
+            <div class="p-4 flex-grow-1">
+              <h5 class="text-gradient">IC3 GS5 Spark Certification</h5>
+              <p class="text-muted small mb-2">Certiport | May 2025</p>
+              <p class="small">Foundational certification validating digital literacy, hardware/software basics, and internet operations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="py-5">
+    <div class="container">
+      <div class="section-title text-center mb-5" data-aos="fade-up">
+        <h2>Work <span class="text-gradient">Experience</span></h2>
+        <div class="line"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="timeline">
+            
+            <!-- Timeline Item 1 -->
+            <div class="timeline-item glass-card p-4 mb-4" data-aos="fade-up">
+              <div class="timeline-date badge bg-custom text-dark mb-3">Feb 2025 - Present</div>
+              <h4 class="text-gradient">Call Center Agent</h4>
+              <h6 class="text-muted">Vodafone Egypt (Aspiring Red Account)</h6>
+              <p class="mt-3">Delivering top-tier customer service, resolving complex user issues, and maintaining high satisfaction rates through active listening and effective problem-solving strategies.</p>
+            </div>
+
+            <!-- Timeline Item 2 -->
+            <div class="timeline-item glass-card p-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+              <div class="timeline-date badge bg-custom text-dark mb-3">Ongoing</div>
+              <h4 class="text-gradient">Freelance & Academic Projects</h4>
+              <h6 class="text-muted">Data Analysis</h6>
+              <p class="mt-3">Consistently executing independent analytics projects using SQL, Excel, and Power BI to build comprehensive portfolios and answer real-world business questions.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-black-alpha">
+    <div class="container">
+      <div class="section-title text-center mb-5" data-aos="fade-up">
+        <h2>Get in <span class="text-gradient">Touch</span></h2>
+        <div class="line"></div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8" data-aos="zoom-in">
+          <div class="glass-card p-5">
+            <form action="https://formspree.io/f/xnjgjaqd" method="POST">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control custom-input" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                  <input type="email" name="email" class="form-control custom-input" placeholder="Your Email" required>
+                </div>
+                <div class="col-12">
+                  <textarea name="message" rows="5" class="form-control custom-input" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="col-12 text-center mt-4">
+                  <button type="submit" class="btn btn-custom w-100 py-2">Send Message <i class='bx bx-send ms-2'></i></button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center glass-card border-0 rounded-0 mt-5">
+    <div class="container">
+      <div class="social-icons mb-3">
+        <a href="https://www.linkedin.com/in/omar3issawa7dan" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://github.com/Omar3issaIbrahimWa7dan" target="_blank"><i class='bx bxl-github'></i></a>
+        <a href="mailto:omareissawahdan@gmail.com"><i class='bx bxs-envelope'></i></a>
+      </div>
+      <p class="mb-0 text-muted small">&copy; 2026 Omar Wahdan. Built with <i class='bx bxs-heart text-primary-custom'></i> & Bootstrap 5.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="Script.Js"></script>
 </body>
 </html>
